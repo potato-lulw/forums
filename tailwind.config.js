@@ -14,6 +14,10 @@ export default {
 			},
 			colors: {
 				myBg: '#2f2f2f',
+				myBg2: "#222222",
+				myBlue: "#6364ab",
+				myBlue2: "#a9a4c1",
+				myCardBg: "#282828",
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
 				card: {
