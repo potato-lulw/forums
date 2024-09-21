@@ -4,17 +4,17 @@ import MainForumCard from "@/myComponents/mainForumCard"
 const Home = () => {
 
     const mainForums = [
-        { title: "Dummy Title 1" },
-        { title: "Dummy Title 2" },
-        { title: "Dummy Title 3" },
-        { title: "Dummy Title 4" },
+        { title: "DummyTitle1" },
+        { title: "DummyTitle2" },
+        { title: "DummyTitle3" },
+        { title: "DummyTitle4" },
     ]
 
     const forums = [
-        { title: "Dummy forum 0", },
-        { title: "Dummy forum 1", },
-        { title: "Dummy forum 2", },
-        { title: "Dummy forum 3", },
+        { title: "Dummyforum0", },
+        { title: "Dummyforum1", },
+        { title: "Dummyforum2", },
+        { title: "Dummyforum3", },
     ]
     return (
         <div className="max-w-[1200px] mx-auto mt-2 p-0 md:px-5 lg:p-0">
@@ -25,7 +25,7 @@ const Home = () => {
 
                     {
                         mainForums.map((forum, index) => (
-                            <MainForumCard key={index} title={forum.title} forums={forums} />
+                            <MainForumCard key={index} title={forum.title} forums={forums} isSubForum={false} />
                         ))
                     }
                 </div>
