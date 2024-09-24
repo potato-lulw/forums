@@ -7,6 +7,23 @@ export default {
 	],
 	theme: {
 		extend: {
+			fontSize: {
+				xs: '0.6875rem',   // 11px (previously 12px)
+				sm: '0.75rem',     // 12px (previously 14px)
+				base: '0.875rem',  // 14px (previously 16px)
+				lg: '1rem',        // 16px (previously 18px)
+				xl: '1.125rem',    // 18px (previously 20px)
+				'2xl': '1.375rem', // 22px (previously 24px)
+				'3xl': '1.625rem', // 26px (previously 30px)
+				'4xl': '2rem',     // 32px (previously 36px)
+				'5xl': '2.5rem',   // 40px (previously 48px)
+				'6xl': '3.5rem',   // 56px (previously 64px)
+				'7xl': '4.5rem',   // 72px (previously 80px)
+				'8xl': '5.5rem',   // 88px (previously 96px)
+				'9xl': '7rem',     // 112px (previously 128px)
+				'10xl': '9rem'     // 144px (previously 160px)
+			},
+
 			borderRadius: {
 				lg: 'var(--radius)',
 				md: 'calc(var(--radius) - 2px)',

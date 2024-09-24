@@ -10,7 +10,7 @@ const ForumCard = ({ forum, isSubForum }) => {
             </div>
             <div className='flex sm:flex-row flex-col sm:justify-between items-start sm:items-center justify-start flex-1 text-myBlue2 py-2'>
                 <Link to={isSubForum ? `/forums/subforum/${forum.title}` : `/forums/${forum.title}`}>
-                    <span className='hover:text-myBlue font-medium text-lg'>{forum.title}</span>
+                    <span className='hover:text-myBlue font-medium text-xl'>{forum.title}</span>
                 </Link>
                 <div className='flex gap-2 w-fit'>
                     <div className='w-10 h-10 bg-myBg rounded-md hidden md:block'> </div>

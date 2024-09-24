@@ -28,7 +28,7 @@ const Threads = ({ title }) => {
                                 <span className={`text-xs font-semibold px-2 py-1 rounded-sm`} style={{ backgroundColor: randomTag.color, color: randomTag.textColor }}>
                                     {randomTag.text}
                                 </span>
-                                <h2 className="text-base text-myBlue2">{title}</h2>
+                                <h2 className="text-lg text-myBlue2">{title}</h2>
                             </div>
                             <p className="text-xs text-gray-400">Creator - 12 Sept 2023</p>
                             <div className="md:hidden block text-xs text-gray-400">Replies 16 - Yesterday 12:00</div>
