@@ -1,11 +1,12 @@
 import MessageCard from "@/myComponents/messageCard";
 import PageChanger from "@/myComponents/pageChanger";
-import { useParams } from "react-router-dom"
+import { useLocation, useParams } from "react-router-dom"
 
 
 const ThreadsPage = () => {
 
     const { title } = useParams();
+    // const location = useLocation();
 
     const messages = [
         {

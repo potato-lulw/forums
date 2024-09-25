@@ -6,6 +6,7 @@ import SubForum from "./pages/subForum";
 import ThreadsPage from "./pages/threadsPage";
 import Login from "./pages/login";
 import Register from "./pages/register";
+import Footer from "./myComponents/footer";
 
 function App() {
   const location = useLocation();
@@ -23,6 +24,8 @@ function App() {
         <Route path="/forums/:title" element={<Forums />} />
         <Route path="/forums/threads/:title" element={<ThreadsPage />} /> {/* New route for thread */}
       </Routes>
+
+      {location.pathname !== "/login" && location.pathname !== "/register" && <Footer />}
     </div>
   );
 }
